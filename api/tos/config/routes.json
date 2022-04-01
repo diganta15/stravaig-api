@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tos",
+      "handler": "tos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tos",
+      "handler": "tos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tos",
+      "handler": "tos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
